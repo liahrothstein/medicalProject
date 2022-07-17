@@ -1,0 +1,14 @@
+@import url(./styles/header.css);
+
+@font-face {
+    font-family: ChaletComprime-CologneEighty;
+    src: url(./fonts/ChaletComprime-CologneEighty.ttf);
+}
+@font-face {
+    font-family: Proxima-Nova;
+    src: url(./fonts/Proxima-Nova.ttf);
+}
+
+body{
+    margin: 0;
+}
