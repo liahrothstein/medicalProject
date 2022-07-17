@@ -1,0 +1,53 @@
+main{
+    padding-top: 120px;
+}
+main div.heroPage{
+    height: 580px;
+    background: url(../heroPage/background.png) no-repeat;
+    background-size: cover;
+}
+main div.heroPage div.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 2.56vw;
+}
+main div.heroPage div.slider div.arrowLeft,
+main div.heroPage div.slider div.arrowRight{
+    width: 45px;
+    height: 45px;
+    background: #ffffff38;
+    border-radius: 50%;
+    text-align: center;
+    color: #05141b;
+    font-size: 31px;
+    cursor: pointer;
+}
+main div.heroPage div.slider div.main{
+    width: 74.81vw;
+    color: white;
+    font-family: ChaletComprime-CologneEighty;
+    text-transform: uppercase;
+    text-shadow: 2px 2px gray;
+}
+main div.heroPage div.slider div.main div.header{
+    font-size: 155px;
+}
+main div.heroPage div.slider div.main div.description{
+    font-size: 40px;
+}
+main div.heroPage div.slider div.main button{
+    width: 15.35vw;
+    height: 55px;
+    border: none;
+    color: white;
+    font-family: ChaletComprime-CologneEighty;
+    text-transform: uppercase;
+    background: #00000038;
+    font-size: 30px;
+    cursor: pointer;
+}
+main div.heroPage div.slider div.main button:hover{
+    background: #3a9dca;
+}
